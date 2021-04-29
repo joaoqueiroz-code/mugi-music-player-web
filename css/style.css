@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(64, 189, 182);
+
+}
+
+main {
+    position: relative;
+    width:940px;
+    margin:0 auto;
+}
+
+nav {
+    background-color: black;
+    padding:300px 50px 100px 50px;
+
+}
+
+nav li p {
+    color: rgb(255, 255, 255);
+    font-size: 200px;
+    margin:30px 20px 30px 20px
+
+}
+
+.musics {
+    border:1px solid white;
+    height: 300px;
+    width: 600px;
+    margin: 90px 20px 20px 20px;
+    padding: 30px 5px 30px 5px;
+    list-style: none;
+    position: relative;
+    top:-100px;
+    text-align: center;
+    user-select: none;
+    
+
+}
+
+#music1 {
+    background-image:url("/images/ray-charles.jpg");
+
+}
+
+#music2 {
+    background-image:url("/images/frank-sinatra.jpg");
+
+}
+
+#music3 {
+    background-image:url("/images/creedence-clearwater-revival.jpg");
+
+}
+
+.titulo {
+    margin:0px;
+    width:310px;
+    background-color: white;
+    position: absolute;
+    bottom:360.4px;
+    left: -1px;
+    font-size: 2em;
+    text-align: center;
+    color:rgb(0, 0, 0);
+
+}
+
+.musics:hover {
+    cursor: pointer;
+    background-color: tomato;
+}
+
+#audio {
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    left: 290px;
+
+}
+
